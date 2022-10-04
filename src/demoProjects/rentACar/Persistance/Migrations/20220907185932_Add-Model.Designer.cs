@@ -8,7 +8,7 @@ using Persistence.Contexts;
 
 #nullable disable
 
-namespace Persistance.Migrations
+namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
     [Migration("20220907185932_Add-Model")]
